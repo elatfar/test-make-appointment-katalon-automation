@@ -1,0 +1,42 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Make Appointment,Chrome 114.0.0.0,,,2023-07-13 08:10:07,2023-07-13 08:10:51,"43,205s",FAILED
+,,,,,,,
+Test Cases/Login,Chrome 114.0.0.0,,,2023-07-13 08:10:08,2023-07-13 08:10:37,"29,492s",PASSED
+openBrowser(webUrl),Chrome 114.0.0.0,,,2023-07-13 08:10:08,2023-07-13 08:10:32,"23,886s",PASSED
+"click(findTestObject(""Sidebar/toggle button""))",Chrome 114.0.0.0,,,2023-07-13 08:10:32,2023-07-13 08:10:33,"0,521s",PASSED
+"click(findTestObject(""Sidebar/Login Page Button""))",Chrome 114.0.0.0,,,2023-07-13 08:10:33,2023-07-13 08:10:34,"1,436s",PASSED
+"verifyTextPresent(""Please login to make appointment."", false)",Chrome 114.0.0.0,,,2023-07-13 08:10:34,2023-07-13 08:10:35,"0,425s",PASSED
+"setText(findTestObject(""Login Page/input username""), ""John Doe"")",Chrome 114.0.0.0,,,2023-07-13 08:10:35,2023-07-13 08:10:35,"0,726s",PASSED
+"setText(findTestObject(""Login Page/input password""), ""ThisIsNotAPassword"")",Chrome 114.0.0.0,,,2023-07-13 08:10:35,2023-07-13 08:10:36,"0,713s",PASSED
+"click(findTestObject(""Login Page/Login Button""))",Chrome 114.0.0.0,,,2023-07-13 08:10:36,2023-07-13 08:10:37,"1,262s",PASSED
+,,,,,,,
+Test Cases/Make Appointment Page Object Validation,Chrome 114.0.0.0,,,2023-07-13 08:10:37,2023-07-13 08:10:42,"5,074s",PASSED
+"verifyTextPresent(""Facility"", false)",Chrome 114.0.0.0,,,2023-07-13 08:10:38,2023-07-13 08:10:38,"0,304s",PASSED
+"verifyElementVisible(findTestObject(""Appointment Page/Combo Facility""))",Chrome 114.0.0.0,,,2023-07-13 08:10:38,2023-07-13 08:10:38,"0,405s",PASSED
+"verifyTextPresent(""Apply for hospital readmission"", false)",Chrome 114.0.0.0,,,2023-07-13 08:10:38,2023-07-13 08:10:39,"0,316s",PASSED
+"verifyElementVisible(findTestObject(""Appointment Page/checkbox""))",Chrome 114.0.0.0,,,2023-07-13 08:10:39,2023-07-13 08:10:39,"0,381s",PASSED
+"verifyTextPresent(""Healthcare Program"", false)",Chrome 114.0.0.0,,,2023-07-13 08:10:39,2023-07-13 08:10:39,"0,317s",PASSED
+"verifyElementVisible(findTestObject(""Appointment Page/Radio Medicare Button""))",Chrome 114.0.0.0,,,2023-07-13 08:10:39,2023-07-13 08:10:40,"0,356s",PASSED
+"verifyElementVisible(findTestObject(""Appointment Page/Radio Medicaid Button""))",Chrome 114.0.0.0,,,2023-07-13 08:10:40,2023-07-13 08:10:40,"0,389s",PASSED
+"verifyElementVisible(findTestObject(""Appointment Page/Radio None Button""))",Chrome 114.0.0.0,,,2023-07-13 08:10:40,2023-07-13 08:10:41,"0,379s",PASSED
+"verifyTextPresent(""Visit Date (Required)"", false)",Chrome 114.0.0.0,,,2023-07-13 08:10:41,2023-07-13 08:10:41,"0,324s",PASSED
+"verifyElementVisible(findTestObject(""Appointment Page/Input Calender""))",Chrome 114.0.0.0,,,2023-07-13 08:10:41,2023-07-13 08:10:41,"0,376s",PASSED
+"verifyTextPresent(""Comment"", false)",Chrome 114.0.0.0,,,2023-07-13 08:10:41,2023-07-13 08:10:42,"0,313s",PASSED
+"verifyElementVisible(findTestObject(""Appointment Page/Input Calender""))",Chrome 114.0.0.0,,,2023-07-13 08:10:42,2023-07-13 08:10:42,"0,352s",PASSED
+"verifyElementVisible(findTestObject(""Appointment Page/Book Appointment Button""))",Chrome 114.0.0.0,,,2023-07-13 08:10:42,2023-07-13 08:10:42,"0,400s",PASSED
+,,,,,,,
+Test Cases/Appointment Result Validation,Chrome 114.0.0.0,,,2023-07-13 08:10:42,2023-07-13 08:10:43,"0,875s",FAILED
+"verifyTextPresent(""Appointment Confirmation"", false)",Chrome 114.0.0.0,,,2023-07-13 08:10:43,2023-07-13 08:10:43,"0,439s",FAILED
+,,,,,,,
+Test Cases/Make Appointment - Hongkong - Medicare,Chrome 114.0.0.0,,,2023-07-13 08:10:43,2023-07-13 08:10:48,"4,893s",PASSED
+"click(findTestObject(""Appointment Page/Combo Facility""))",Chrome 114.0.0.0,,,2023-07-13 08:10:44,2023-07-13 08:10:44,"0,427s",PASSED
+"click(findTestObject(""Appointment Page/Option Hongkong Health Center""))",Chrome 114.0.0.0,,,2023-07-13 08:10:44,2023-07-13 08:10:44,"0,400s",PASSED
+"click(findTestObject(""Appointment Page/checkbox""))",Chrome 114.0.0.0,,,2023-07-13 08:10:44,2023-07-13 08:10:45,"0,396s",PASSED
+"click(findTestObject(""Appointment Page/Radio Medicare Button""))",Chrome 114.0.0.0,,,2023-07-13 08:10:45,2023-07-13 08:10:45,"0,410s",PASSED
+"setText(findTestObject(""Appointment Page/Input Calender""), ""13/07/2023"")",Chrome 114.0.0.0,,,2023-07-13 08:10:45,2023-07-13 08:10:46,"0,855s",PASSED
+"setText(findTestObject(""Appointment Page/Comment Input Text""), ""Test Hongkong Facility"")",Chrome 114.0.0.0,,,2023-07-13 08:10:46,2023-07-13 08:10:47,"0,866s",PASSED
+"click(findTestObject(""Appointment Page/Book Appointment Button""))",Chrome 114.0.0.0,,,2023-07-13 08:10:47,2023-07-13 08:10:48,"1,152s",PASSED
+,,,,,,,
+Test Cases/Logout,Chrome 114.0.0.0,,,2023-07-13 08:10:48,2023-07-13 08:10:51,"2,450s",PASSED
+"click(findTestObject(""Sidebar/toggle button""))",Chrome 114.0.0.0,,,2023-07-13 08:10:48,2023-07-13 08:10:49,"0,386s",PASSED
+"click(findTestObject(""Sidebar/Logout Button""))",Chrome 114.0.0.0,,,2023-07-13 08:10:49,2023-07-13 08:10:51,"1,705s",PASSED

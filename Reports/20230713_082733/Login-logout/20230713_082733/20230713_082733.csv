@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login-logout,Chrome 114.0.0.0,,,2023-07-13 08:27:43,2023-07-13 08:28:05,"21,651s",PASSED
+,,,,,,,
+Test Cases/Login,Chrome 114.0.0.0,,,2023-07-13 08:27:44,2023-07-13 08:28:03,"19,471s",PASSED
+openBrowser(webUrl),Chrome 114.0.0.0,,,2023-07-13 08:27:44,2023-07-13 08:27:58,"14,001s",PASSED
+"click(findTestObject(""Sidebar/toggle button""))",Chrome 114.0.0.0,,,2023-07-13 08:27:58,2023-07-13 08:27:58,"0,418s",PASSED
+"click(findTestObject(""Sidebar/Login Page Button""))",Chrome 114.0.0.0,,,2023-07-13 08:27:58,2023-07-13 08:28:00,"1,198s",PASSED
+"verifyTextPresent(""Please login to make appointment."", false)",Chrome 114.0.0.0,,,2023-07-13 08:28:00,2023-07-13 08:28:00,"0,411s",PASSED
+"setText(findTestObject(""Login Page/input username""), ""John Doe"")",Chrome 114.0.0.0,,,2023-07-13 08:28:00,2023-07-13 08:28:01,"0,618s",PASSED
+"setText(findTestObject(""Login Page/input password""), ""ThisIsNotAPassword"")",Chrome 114.0.0.0,,,2023-07-13 08:28:01,2023-07-13 08:28:01,"0,645s",PASSED
+"click(findTestObject(""Login Page/Login Button""))",Chrome 114.0.0.0,,,2023-07-13 08:28:01,2023-07-13 08:28:03,"1,810s",PASSED
+,,,,,,,
+Test Cases/Logout,Chrome 114.0.0.0,,,2023-07-13 08:28:03,2023-07-13 08:28:05,"1,806s",PASSED
+"click(findTestObject(""Sidebar/toggle button""))",Chrome 114.0.0.0,,,2023-07-13 08:28:03,2023-07-13 08:28:04,"0,314s",PASSED
+"click(findTestObject(""Sidebar/Logout Button""))",Chrome 114.0.0.0,,,2023-07-13 08:28:04,2023-07-13 08:28:05,"1,137s",PASSED

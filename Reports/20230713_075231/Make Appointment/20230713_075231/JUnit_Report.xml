@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Make Appointment" time="54.659" tests="4" failures="0" errors="0">
+   <testsuite name="Make Appointment" tests="4" failures="0" errors="0" time="54.659" skipped="0" timestamp="2023-07-13 07:52:43" hostname="Atmam Al Faruqi - LAPTOP-I9L4OTOD" id="Test Suites/Make Appointment">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\pinja\\Katalon Studio\\Make An Appoitment Web\\Reports\\20230713_075231\\Make Appointment\\20230713_075231"/>
+         <property name="logFiles" value="C:\\Users\\pinja\\Katalon Studio\\Make An Appoitment Web\\Reports\\20230713_075231\\Make Appointment\\20230713_075231\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Atmam Al Faruqi - LAPTOP-I9L4OTOD"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 114.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.197"/>
+         <property name="sessionId" value="aa0db009c4fbbe1ca7d96dee04f6bdd2"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Login" time="40.154" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2023-07-13 07:52:43 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2023-07-13 07:52:44 - [TEST_STEP][PASSED] - openBrowser(webUrl): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-07-13 07:52:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-13 07:52:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-13 07:53:17 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-07-13 07:53:17 - [TEST_STEP][PASSED] - click(findTestObject("Sidebar/toggle button")): Object: 'Object Repository/Sidebar/toggle button' is clicked on
+
+2023-07-13 07:53:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Sidebar/toggle button' is clicked on
+
+2023-07-13 07:53:18 - [TEST_STEP][PASSED] - click(findTestObject("Sidebar/Login Page Button")): Object: 'Object Repository/Sidebar/Login Page Button' is clicked on
+
+2023-07-13 07:53:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Sidebar/Login Page Button' is clicked on
+
+2023-07-13 07:53:20 - [TEST_STEP][PASSED] - verifyTextPresent("Please login to make appointment.", false): Text 'Please login to make appointment.' is present on page 
+
+2023-07-13 07:53:20 - [MESSAGE][PASSED] - Text 'Please login to make appointment.' is present on page 
+
+2023-07-13 07:53:20 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/input username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Login Page/input username'
+
+2023-07-13 07:53:21 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login Page/input username'
+
+2023-07-13 07:53:21 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/input password"), "ThisIsNotAPassword"): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Login Page/input password'
+
+2023-07-13 07:53:22 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Login Page/input password'
+
+2023-07-13 07:53:22 - [TEST_STEP][PASSED] - click(findTestObject("Login Page/Login Button")): Object: 'Object Repository/Login Page/Login Button' is clicked on
+
+2023-07-13 07:53:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/Login Button' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Make Appointment Page Object Validation" time="5.02" classname="Test Cases/Make Appointment Page Object Validation" status="PASSED">
+         <system-out><![CDATA[2023-07-13 07:53:23 - [TEST_CASE][PASSED] - Test Cases/Make Appointment Page Object Validation: Test Cases/Make Appointment Page Object Validation
+
+2023-07-13 07:53:24 - [TEST_STEP][PASSED] - verifyTextPresent("Facility", false): Text 'Facility' is present on page 
+
+2023-07-13 07:53:24 - [MESSAGE][PASSED] - Text 'Facility' is present on page 
+
+2023-07-13 07:53:24 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Appointment Page/Combo Facility")): Object 'Object Repository/Appointment Page/Combo Facility' is visible
+
+2023-07-13 07:53:25 - [MESSAGE][PASSED] - Object 'Object Repository/Appointment Page/Combo Facility' is visible
+
+2023-07-13 07:53:25 - [TEST_STEP][PASSED] - verifyTextPresent("Apply for hospital readmission", false): Text 'Apply for hospital readmission' is present on page 
+
+2023-07-13 07:53:25 - [MESSAGE][PASSED] - Text 'Apply for hospital readmission' is present on page 
+
+2023-07-13 07:53:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Appointment Page/checkbox")): Object 'Object Repository/Appointment Page/checkbox' is visible
+
+2023-07-13 07:53:25 - [MESSAGE][PASSED] - Object 'Object Repository/Appointment Page/checkbox' is visible
+
+2023-07-13 07:53:25 - [TEST_STEP][PASSED] - verifyTextPresent("Healthcare Program", false): Text 'Healthcare Program' is present on page 
+
+2023-07-13 07:53:26 - [MESSAGE][PASSED] - Text 'Healthcare Program' is present on page 
+
+2023-07-13 07:53:26 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Appointment Page/Radio Medicare Button")): Object 'Object Repository/Appointment Page/Radio Medicare Button' is visible
+
+2023-07-13 07:53:26 - [MESSAGE][PASSED] - Object 'Object Repository/Appointment Page/Radio Medicare Button' is visible
+
+2023-07-13 07:53:26 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Appointment Page/Radio Medicaid Button")): Object 'Object Repository/Appointment Page/Radio Medicaid Button' is visible
+
+2023-07-13 07:53:26 - [MESSAGE][PASSED] - Object 'Object Repository/Appointment Page/Radio Medicaid Button' is visible
+
+2023-07-13 07:53:26 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Appointment Page/Radio None Button")): Object 'Object Repository/Appointment Page/Radio None Button' is visible
+
+2023-07-13 07:53:27 - [MESSAGE][PASSED] - Object 'Object Repository/Appointment Page/Radio None Button' is visible
+
+2023-07-13 07:53:27 - [TEST_STEP][PASSED] - verifyTextPresent("Visit Date (Required)", false): Text 'Visit Date (Required)' is present on page 
+
+2023-07-13 07:53:27 - [MESSAGE][PASSED] - Text 'Visit Date (Required)' is present on page 
+
+2023-07-13 07:53:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Appointment Page/Input Calender")): Object 'Object Repository/Appointment Page/Input Calender' is visible
+
+2023-07-13 07:53:27 - [MESSAGE][PASSED] - Object 'Object Repository/Appointment Page/Input Calender' is visible
+
+2023-07-13 07:53:27 - [TEST_STEP][PASSED] - verifyTextPresent("Comment", false): Text 'Comment' is present on page 
+
+2023-07-13 07:53:28 - [MESSAGE][PASSED] - Text 'Comment' is present on page 
+
+2023-07-13 07:53:28 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Appointment Page/Input Calender")): Object 'Object Repository/Appointment Page/Input Calender' is visible
+
+2023-07-13 07:53:28 - [MESSAGE][PASSED] - Object 'Object Repository/Appointment Page/Input Calender' is visible
+
+2023-07-13 07:53:28 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Appointment Page/Book Appointment Button")): Object 'Object Repository/Appointment Page/Book Appointment Button' is visible
+
+2023-07-13 07:53:28 - [MESSAGE][PASSED] - Object 'Object Repository/Appointment Page/Book Appointment Button' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Make Appointment - Hongkong - Medicare" time="5.666" classname="Test Cases/Make Appointment - Hongkong - Medicare" status="PASSED">
+         <system-out><![CDATA[2023-07-13 07:53:28 - [TEST_CASE][PASSED] - Test Cases/Make Appointment - Hongkong - Medicare: Test Cases/Make Appointment - Hongkong - Medicare
+
+2023-07-13 07:53:29 - [TEST_STEP][PASSED] - click(findTestObject("Appointment Page/Combo Facility")): Object: 'Object Repository/Appointment Page/Combo Facility' is clicked on
+
+2023-07-13 07:53:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Appointment Page/Combo Facility' is clicked on
+
+2023-07-13 07:53:29 - [TEST_STEP][PASSED] - click(findTestObject("Appointment Page/Option Hongkong Health Center")): Object: 'Object Repository/Appointment Page/Option Hongkong Health Center' is clicked on
+
+2023-07-13 07:53:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Appointment Page/Option Hongkong Health Center' is clicked on
+
+2023-07-13 07:53:30 - [TEST_STEP][PASSED] - click(findTestObject("Appointment Page/checkbox")): Object: 'Object Repository/Appointment Page/checkbox' is clicked on
+
+2023-07-13 07:53:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Appointment Page/checkbox' is clicked on
+
+2023-07-13 07:53:30 - [TEST_STEP][PASSED] - click(findTestObject("Appointment Page/Radio Medicare Button")): Object: 'Object Repository/Appointment Page/Radio Medicare Button' is clicked on
+
+2023-07-13 07:53:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Appointment Page/Radio Medicare Button' is clicked on
+
+2023-07-13 07:53:31 - [TEST_STEP][PASSED] - setText(findTestObject("Appointment Page/Input Calender"), "13/07/2023"): Text '13/07/2023' is set on object 'Object Repository/Appointment Page/Input Calender'
+
+2023-07-13 07:53:32 - [MESSAGE][PASSED] - Text '13/07/2023' is set on object 'Object Repository/Appointment Page/Input Calender'
+
+2023-07-13 07:53:32 - [TEST_STEP][PASSED] - setText(findTestObject("Appointment Page/Comment Input Text"), "Test Hongkong Facility"): Text 'Test Hongkong Facility' is set on object 'Object Repository/Appointment Page/Comment Input Text'
+
+2023-07-13 07:53:32 - [MESSAGE][PASSED] - Text 'Test Hongkong Facility' is set on object 'Object Repository/Appointment Page/Comment Input Text'
+
+2023-07-13 07:53:32 - [TEST_STEP][PASSED] - click(findTestObject("Appointment Page/Book Appointment Button")): Object: 'Object Repository/Appointment Page/Book Appointment Button' is clicked on
+
+2023-07-13 07:53:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Appointment Page/Book Appointment Button' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Logout" time="3.392" classname="Test Cases/Logout" status="PASSED">
+         <system-out><![CDATA[2023-07-13 07:53:34 - [TEST_CASE][PASSED] - Test Cases/Logout: Test Cases/Logout
+
+2023-07-13 07:53:35 - [TEST_STEP][PASSED] - click(findTestObject("Sidebar/toggle button")): Object: 'Object Repository/Sidebar/toggle button' is clicked on
+
+2023-07-13 07:53:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Sidebar/toggle button' is clicked on
+
+2023-07-13 07:53:35 - [TEST_STEP][PASSED] - click(findTestObject("Sidebar/Logout Button")): Object: 'Object Repository/Sidebar/Logout Button' is clicked on
+
+2023-07-13 07:53:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Sidebar/Logout Button' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-13 07:52:43 - [TEST_SUITE][PASSED] - Make Appointment: Test Cases/Logout]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

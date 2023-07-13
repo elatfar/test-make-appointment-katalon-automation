@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login-logout,Chrome 114.0.0.0,,,2023-07-12 22:05:12,2023-07-12 22:05:31,"18,335s",PASSED
+,,,,,,,
+Test Cases/Login,Chrome 114.0.0.0,,,2023-07-12 22:05:13,2023-07-12 22:05:28,"15,476s",PASSED
+"openBrowser(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 114.0.0.0,,,2023-07-12 22:05:13,2023-07-12 22:05:21,"7,743s",PASSED
+"click(findTestObject(""Sidebar/toggle button""))",Chrome 114.0.0.0,,,2023-07-12 22:05:21,2023-07-12 22:05:22,"0,613s",PASSED
+"click(findTestObject(""Sidebar/Login Page Button""))",Chrome 114.0.0.0,,,2023-07-12 22:05:22,2023-07-12 22:05:23,"1,328s",PASSED
+"verifyTextPresent(""Please login to make appointment."", false)",Chrome 114.0.0.0,,,2023-07-12 22:05:23,2023-07-12 22:05:23,"0,356s",PASSED
+"setText(findTestObject(""Login Page/input username""), ""John Doe"")",Chrome 114.0.0.0,,,2023-07-12 22:05:23,2023-07-12 22:05:24,"0,730s",PASSED
+"setText(findTestObject(""Login Page/input password""), ""ThisIsNotAPassword"")",Chrome 114.0.0.0,,,2023-07-12 22:05:24,2023-07-12 22:05:25,"0,691s",PASSED
+"click(findTestObject(""Login Page/Login Button""))",Chrome 114.0.0.0,,,2023-07-12 22:05:25,2023-07-12 22:05:26,"1,443s",PASSED
+"verifyTextPresent(""Facility"", false)",Chrome 114.0.0.0,,,2023-07-12 22:05:26,2023-07-12 22:05:27,"0,316s",PASSED
+"verifyElementVisible(findTestObject(""Appointment Page/Combo Facility""))",Chrome 114.0.0.0,,,2023-07-12 22:05:27,2023-07-12 22:05:27,"0,444s",PASSED
+"verifyTextPresent(""Healthcare Program"", false)",Chrome 114.0.0.0,,,2023-07-12 22:05:27,2023-07-12 22:05:27,"0,330s",PASSED
+"verifyElementVisible(findTestObject(""Appointment Page/checkbox""))",Chrome 114.0.0.0,,,2023-07-12 22:05:27,2023-07-12 22:05:28,"0,342s",PASSED
+"verifyTextPresent(""Visit Date (Required)"", false)",Chrome 114.0.0.0,,,2023-07-12 22:05:28,2023-07-12 22:05:28,"0,305s",PASSED
+"verifyTextPresent(""Comment"", false)",Chrome 114.0.0.0,,,2023-07-12 22:05:28,2023-07-12 22:05:28,"0,312s",PASSED
+,,,,,,,
+Test Cases/Logout,Chrome 114.0.0.0,,,2023-07-12 22:05:28,2023-07-12 22:05:31,"2,426s",PASSED
+"click(findTestObject(""Sidebar/toggle button""))",Chrome 114.0.0.0,,,2023-07-12 22:05:29,2023-07-12 22:05:29,"0,395s",PASSED
+"click(findTestObject(""Sidebar/Logout Button""))",Chrome 114.0.0.0,,,2023-07-12 22:05:29,2023-07-12 22:05:31,"1,623s",PASSED

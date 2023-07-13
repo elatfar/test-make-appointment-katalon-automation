@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Make Appointment" time="43.205" tests="5" failures="1" errors="0">
+   <testsuite name="Make Appointment" tests="5" failures="1" errors="0" time="43.205" skipped="0" timestamp="2023-07-13 08:10:07" hostname="Atmam Al Faruqi - LAPTOP-I9L4OTOD" id="Test Suites/Make Appointment">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\pinja\\Katalon Studio\\Make An Appoitment Web\\Reports\\20230713_080955\\Make Appointment\\20230713_080955"/>
+         <property name="logFiles" value="C:\\Users\\pinja\\Katalon Studio\\Make An Appoitment Web\\Reports\\20230713_080955\\Make Appointment\\20230713_080955\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\pinja\\Katalon Studio\\Make An Appoitment Web\\Reports\\20230713_080955\\Make Appointment\\20230713_080955\\1689210643572.png"/>
+         <property name="hostName" value="Atmam Al Faruqi - LAPTOP-I9L4OTOD"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 114.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.197"/>
+         <property name="sessionId" value="45a933ac54c6ba4b416a9b929fcafec8"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Login" time="29.492" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2023-07-13 08:10:08 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2023-07-13 08:10:08 - [TEST_STEP][PASSED] - openBrowser(webUrl): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-07-13 08:10:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-13 08:10:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-13 08:10:32 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com/'
+
+2023-07-13 08:10:32 - [TEST_STEP][PASSED] - click(findTestObject("Sidebar/toggle button")): Object: 'Object Repository/Sidebar/toggle button' is clicked on
+
+2023-07-13 08:10:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Sidebar/toggle button' is clicked on
+
+2023-07-13 08:10:33 - [TEST_STEP][PASSED] - click(findTestObject("Sidebar/Login Page Button")): Object: 'Object Repository/Sidebar/Login Page Button' is clicked on
+
+2023-07-13 08:10:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Sidebar/Login Page Button' is clicked on
+
+2023-07-13 08:10:34 - [TEST_STEP][PASSED] - verifyTextPresent("Please login to make appointment.", false): Text 'Please login to make appointment.' is present on page 
+
+2023-07-13 08:10:35 - [MESSAGE][PASSED] - Text 'Please login to make appointment.' is present on page 
+
+2023-07-13 08:10:35 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/input username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Login Page/input username'
+
+2023-07-13 08:10:35 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login Page/input username'
+
+2023-07-13 08:10:35 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/input password"), "ThisIsNotAPassword"): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Login Page/input password'
+
+2023-07-13 08:10:36 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Login Page/input password'
+
+2023-07-13 08:10:36 - [TEST_STEP][PASSED] - click(findTestObject("Login Page/Login Button")): Object: 'Object Repository/Login Page/Login Button' is clicked on
+
+2023-07-13 08:10:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/Login Button' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Make Appointment Page Object Validation" time="5.074" classname="Test Cases/Make Appointment Page Object Validation" status="PASSED">
+         <system-out><![CDATA[2023-07-13 08:10:37 - [TEST_CASE][PASSED] - Test Cases/Make Appointment Page Object Validation: Test Cases/Make Appointment Page Object Validation
+
+2023-07-13 08:10:38 - [TEST_STEP][PASSED] - verifyTextPresent("Facility", false): Text 'Facility' is present on page 
+
+2023-07-13 08:10:38 - [MESSAGE][PASSED] - Text 'Facility' is present on page 
+
+2023-07-13 08:10:38 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Appointment Page/Combo Facility")): Object 'Object Repository/Appointment Page/Combo Facility' is visible
+
+2023-07-13 08:10:38 - [MESSAGE][PASSED] - Object 'Object Repository/Appointment Page/Combo Facility' is visible
+
+2023-07-13 08:10:38 - [TEST_STEP][PASSED] - verifyTextPresent("Apply for hospital readmission", false): Text 'Apply for hospital readmission' is present on page 
+
+2023-07-13 08:10:39 - [MESSAGE][PASSED] - Text 'Apply for hospital readmission' is present on page 
+
+2023-07-13 08:10:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Appointment Page/checkbox")): Object 'Object Repository/Appointment Page/checkbox' is visible
+
+2023-07-13 08:10:39 - [MESSAGE][PASSED] - Object 'Object Repository/Appointment Page/checkbox' is visible
+
+2023-07-13 08:10:39 - [TEST_STEP][PASSED] - verifyTextPresent("Healthcare Program", false): Text 'Healthcare Program' is present on page 
+
+2023-07-13 08:10:39 - [MESSAGE][PASSED] - Text 'Healthcare Program' is present on page 
+
+2023-07-13 08:10:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Appointment Page/Radio Medicare Button")): Object 'Object Repository/Appointment Page/Radio Medicare Button' is visible
+
+2023-07-13 08:10:40 - [MESSAGE][PASSED] - Object 'Object Repository/Appointment Page/Radio Medicare Button' is visible
+
+2023-07-13 08:10:40 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Appointment Page/Radio Medicaid Button")): Object 'Object Repository/Appointment Page/Radio Medicaid Button' is visible
+
+2023-07-13 08:10:40 - [MESSAGE][PASSED] - Object 'Object Repository/Appointment Page/Radio Medicaid Button' is visible
+
+2023-07-13 08:10:40 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Appointment Page/Radio None Button")): Object 'Object Repository/Appointment Page/Radio None Button' is visible
+
+2023-07-13 08:10:41 - [MESSAGE][PASSED] - Object 'Object Repository/Appointment Page/Radio None Button' is visible
+
+2023-07-13 08:10:41 - [TEST_STEP][PASSED] - verifyTextPresent("Visit Date (Required)", false): Text 'Visit Date (Required)' is present on page 
+
+2023-07-13 08:10:41 - [MESSAGE][PASSED] - Text 'Visit Date (Required)' is present on page 
+
+2023-07-13 08:10:41 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Appointment Page/Input Calender")): Object 'Object Repository/Appointment Page/Input Calender' is visible
+
+2023-07-13 08:10:41 - [MESSAGE][PASSED] - Object 'Object Repository/Appointment Page/Input Calender' is visible
+
+2023-07-13 08:10:41 - [TEST_STEP][PASSED] - verifyTextPresent("Comment", false): Text 'Comment' is present on page 
+
+2023-07-13 08:10:42 - [MESSAGE][PASSED] - Text 'Comment' is present on page 
+
+2023-07-13 08:10:42 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Appointment Page/Input Calender")): Object 'Object Repository/Appointment Page/Input Calender' is visible
+
+2023-07-13 08:10:42 - [MESSAGE][PASSED] - Object 'Object Repository/Appointment Page/Input Calender' is visible
+
+2023-07-13 08:10:42 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Appointment Page/Book Appointment Button")): Object 'Object Repository/Appointment Page/Book Appointment Button' is visible
+
+2023-07-13 08:10:42 - [MESSAGE][PASSED] - Object 'Object Repository/Appointment Page/Book Appointment Button' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Appointment Result Validation" time="0.875" classname="Test Cases/Appointment Result Validation" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Appointment Result Validation FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Appointment Confirmation' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$1.call(Unknown Source)
+	at Appointment Result Validation.run(Appointment Result Validation:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1689210595043.run(TempTestSuite1689210595043.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Appointment Confirmation' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-07-13 08:10:42 - [TEST_CASE][FAILED] - Test Cases/Appointment Result Validation: Test Cases/Appointment Result Validation FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Appointment Confirmation' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$1.call(Unknown Source)
+	at Appointment Result Validation.run(Appointment Result Validation:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1689210595043.run(TempTestSuite1689210595043.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Appointment Confirmation' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-07-13 08:10:43 - [TEST_STEP][FAILED] - verifyTextPresent("Appointment Confirmation", false): Unable to verify text 'Appointment Confirmation' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Appointment Confirmation' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$1.call(Unknown Source)
+	at Appointment Result Validation.run(Appointment Result Validation:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1689210595043.run(TempTestSuite1689210595043.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Appointment Confirmation' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2023-07-13 08:10:43 - [MESSAGE][FAILED] - Text 'Appointment Confirmation' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Appointment Confirmation' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$1.call(Unknown Source)
+	at Appointment Result Validation.run(Appointment Result Validation:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1689210595043.run(TempTestSuite1689210595043.groovy:36)
+)
+
+2023-07-13 08:10:43 - [MESSAGE][FAILED] - Unable to verify text 'Appointment Confirmation' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Appointment Confirmation' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$1.call(Unknown Source)
+	at Appointment Result Validation.run(Appointment Result Validation:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1689210595043.run(TempTestSuite1689210595043.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Appointment Confirmation' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|C:\\Users\\pinja\\Katalon Studio\\Make An Appoitment Web\\Reports\\20230713_080955\\Make Appointment\\20230713_080955\\1689210643572.png]]]]></system-out>
+         <system-err><![CDATA[2023-07-13 08:10:42 - [TEST_CASE][FAILED] - Test Cases/Appointment Result Validation: Test Cases/Appointment Result Validation FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Appointment Confirmation' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$1.call(Unknown Source)
+	at Appointment Result Validation.run(Appointment Result Validation:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1689210595043.run(TempTestSuite1689210595043.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Appointment Confirmation' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Make Appointment - Hongkong - Medicare" time="4.893" classname="Test Cases/Make Appointment - Hongkong - Medicare" status="PASSED">
+         <system-out><![CDATA[2023-07-13 08:10:43 - [TEST_CASE][PASSED] - Test Cases/Make Appointment - Hongkong - Medicare: Test Cases/Make Appointment - Hongkong - Medicare
+
+2023-07-13 08:10:44 - [TEST_STEP][PASSED] - click(findTestObject("Appointment Page/Combo Facility")): Object: 'Object Repository/Appointment Page/Combo Facility' is clicked on
+
+2023-07-13 08:10:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Appointment Page/Combo Facility' is clicked on
+
+2023-07-13 08:10:44 - [TEST_STEP][PASSED] - click(findTestObject("Appointment Page/Option Hongkong Health Center")): Object: 'Object Repository/Appointment Page/Option Hongkong Health Center' is clicked on
+
+2023-07-13 08:10:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Appointment Page/Option Hongkong Health Center' is clicked on
+
+2023-07-13 08:10:44 - [TEST_STEP][PASSED] - click(findTestObject("Appointment Page/checkbox")): Object: 'Object Repository/Appointment Page/checkbox' is clicked on
+
+2023-07-13 08:10:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Appointment Page/checkbox' is clicked on
+
+2023-07-13 08:10:45 - [TEST_STEP][PASSED] - click(findTestObject("Appointment Page/Radio Medicare Button")): Object: 'Object Repository/Appointment Page/Radio Medicare Button' is clicked on
+
+2023-07-13 08:10:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Appointment Page/Radio Medicare Button' is clicked on
+
+2023-07-13 08:10:45 - [TEST_STEP][PASSED] - setText(findTestObject("Appointment Page/Input Calender"), "13/07/2023"): Text '13/07/2023' is set on object 'Object Repository/Appointment Page/Input Calender'
+
+2023-07-13 08:10:46 - [MESSAGE][PASSED] - Text '13/07/2023' is set on object 'Object Repository/Appointment Page/Input Calender'
+
+2023-07-13 08:10:46 - [TEST_STEP][PASSED] - setText(findTestObject("Appointment Page/Comment Input Text"), "Test Hongkong Facility"): Text 'Test Hongkong Facility' is set on object 'Object Repository/Appointment Page/Comment Input Text'
+
+2023-07-13 08:10:47 - [MESSAGE][PASSED] - Text 'Test Hongkong Facility' is set on object 'Object Repository/Appointment Page/Comment Input Text'
+
+2023-07-13 08:10:47 - [TEST_STEP][PASSED] - click(findTestObject("Appointment Page/Book Appointment Button")): Object: 'Object Repository/Appointment Page/Book Appointment Button' is clicked on
+
+2023-07-13 08:10:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Appointment Page/Book Appointment Button' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Logout" time="2.45" classname="Test Cases/Logout" status="PASSED">
+         <system-out><![CDATA[2023-07-13 08:10:48 - [TEST_CASE][PASSED] - Test Cases/Logout: Test Cases/Logout
+
+2023-07-13 08:10:48 - [TEST_STEP][PASSED] - click(findTestObject("Sidebar/toggle button")): Object: 'Object Repository/Sidebar/toggle button' is clicked on
+
+2023-07-13 08:10:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Sidebar/toggle button' is clicked on
+
+2023-07-13 08:10:49 - [TEST_STEP][PASSED] - click(findTestObject("Sidebar/Logout Button")): Object: 'Object Repository/Sidebar/Logout Button' is clicked on
+
+2023-07-13 08:10:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Sidebar/Logout Button' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-13 08:10:07 - [TEST_SUITE][FAILED] - Make Appointment: Test Cases/Appointment Result Validation FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Appointment Confirmation' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$1.call(Unknown Source)
+	at Appointment Result Validation.run(Appointment Result Validation:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1689210595043.run(TempTestSuite1689210595043.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Appointment Confirmation' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-07-13 08:10:07 - [TEST_SUITE][FAILED] - Make Appointment: Test Cases/Appointment Result Validation FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Appointment Confirmation' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$1.call(Unknown Source)
+	at Appointment Result Validation.run(Appointment Result Validation:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1689210595043.run(TempTestSuite1689210595043.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Appointment Confirmation' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

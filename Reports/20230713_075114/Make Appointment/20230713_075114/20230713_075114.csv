@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Make Appointment,,,,2023-07-13 07:51:35,2023-07-13 07:51:37,"2,791s",ERROR
+,,,,,,,
+Test Cases/Login,,,,2023-07-13 07:51:35,2023-07-13 07:51:36,"0,573s",ERROR
+openBrowser(null),,,,2023-07-13 07:51:36,2023-07-13 07:51:36,"0,049s",ERROR
+,,,,,,,
+Test Cases/Make Appointment Page Object Validation,,,,2023-07-13 07:51:36,2023-07-13 07:51:37,"0,883s",FAILED
+"verifyTextPresent(""Facility"", false)",,,,2023-07-13 07:51:36,2023-07-13 07:51:37,"0,426s",FAILED
+,,,,,,,
+Test Cases/Make Appointment - Hongkong - Medicare,,,,2023-07-13 07:51:37,2023-07-13 07:51:37,"0,499s",FAILED
+"click(findTestObject(""Appointment Page/Combo Facility""))",,,,2023-07-13 07:51:37,2023-07-13 07:51:37,"0,118s",FAILED
+,,,,,,,
+Test Cases/Logout,,,,2023-07-13 07:51:37,2023-07-13 07:51:37,"0,286s",FAILED
+"click(findTestObject(""Sidebar/toggle button""))",,,,2023-07-13 07:51:37,2023-07-13 07:51:37,"0,048s",FAILED
